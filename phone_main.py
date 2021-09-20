@@ -76,34 +76,35 @@ time.sleep(1)
 
 #Contact choosing
 print ("Please choose the person you would wish to contact")
-phone = float(input("Pick a number from either 1 to 5. "))
+phone = str(input("Pick a number from either 1 to 5. "))
 
 #choose your own adventure kind of stuff
-if phone >= 6:
-    time.sleep(2)
-    print ("That is not a valid number.")
-    print ("SYNTAX ERROR AT LINE 400 TRILLION")
-    exit()
 
-if phone == 1:
+if phone == "1":
     time.sleep(1)
     print (a)
-
-if phone == 2:
+    
+elif phone == "2":
     time.sleep(1)
     print (b)
 
-if phone == 3:
+elif phone == "3":
     time.sleep(1)
     print (c)
 
-if phone == 4:
+elif phone == "4":
     time.sleep(1)
     print (d)
 
-if phone == 5:
+elif phone == "5":
     time.sleep(1)
     print (e)
+
+else:
+    time.sleep(2)
+    print ("That is not valid.")
+    print ("SYNTAX ERROR AT LINE 400 TRILLION")
+    exit()
 
 time.sleep(10)
 print ("Thank you for using our phonebook.")
