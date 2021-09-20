@@ -15,19 +15,19 @@ if name == "sussy":
     print("no")
     exit()
 
-if name == "Bucket":
+elif name == "Bucket":
     print("Dear god.")
     exit()
 
-if name == "Impostor":
+elif name == "Impostor":
     print("GET OUT OF MY HEAD GET OUT OF MY HEAD GET OUT OF MY HEAD GET OUT OF MY HEAD GET OUT OF MY HEAD GET OUT OF MY HEAD GET OUT OF MY HEAD GET OUT OF MY HEAD")
     exit()
 
-if name == "sans":
+elif name == "sans":
     print("ness")
     exit()
 
-if name == "Trollface":
+elif name == "Trollface":
     print("""    ░░░░░▄▄▄▄▀▀▀▀▀▀▀▀▄▄▄▄▄▄░░░░░░░
     ░░░░░█░░░░▒▒▒▒▒▒▒▒▒▒▒▒░░▀▀▄░░░░
     ░░░░█░░░▒▒▒▒▒▒░░░░░░░░▒▒▒░░█░░░
@@ -46,7 +46,7 @@ if name == "Trollface":
     """)
     exit()
 
-if name == ":__:":
+elif name == ":__:":
     print("0.52¥")
     exit()
 #for unique names and inside jokes
