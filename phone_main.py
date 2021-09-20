@@ -10,8 +10,51 @@ e = phone_module.e
 
 #name call
 name = str(input("Hello, please give us your name. "))
-print ("Hello,", name)
-time.sleep(1)
+if name == "sussy":
+    time.sleep(1)
+    print("no")
+    exit()
+
+if name == "Bucket":
+    print("Dear god.")
+    exit()
+
+if name == "Impostor":
+    print("GET OUT OF MY HEAD GET OUT OF MY HEAD GET OUT OF MY HEAD GET OUT OF MY HEAD GET OUT OF MY HEAD GET OUT OF MY HEAD GET OUT OF MY HEAD GET OUT OF MY HEAD")
+    exit()
+
+if name == "sans":
+    print("ness")
+    exit()
+
+if name == "Trollface":
+    print("""    ░░░░░▄▄▄▄▀▀▀▀▀▀▀▀▄▄▄▄▄▄░░░░░░░
+    ░░░░░█░░░░▒▒▒▒▒▒▒▒▒▒▒▒░░▀▀▄░░░░
+    ░░░░█░░░▒▒▒▒▒▒░░░░░░░░▒▒▒░░█░░░
+    ░░░█░░░░░░▄██▀▄▄░░░░░▄▄▄░░░░█░░
+    ░▄▀▒▄▄▄▒░█▀▀▀▀▄▄█░░░██▄▄█░░░░█░
+    █░▒█▒▄░▀▄▄▄▀░░░░░░░░█░░░▒▒▒▒▒░█
+    █░▒█░█▀▄▄░░░░░█▀░░░░▀▄░░▄▀▀▀▄▒█
+    ░█░▀▄░█▄░█▀▄▄░▀░▀▀░▄▄▀░░░░█░░█░
+    ░░█░░░▀▄▀█▄▄░█▀▀▀▄▄▄▄▀▀█▀██░█░░
+    ░░░█░░░░██░░▀█▄▄▄█▄▄█▄████░█░░░
+    ░░░░█░░░░▀▀▄░█░░░█░█▀██████░█░░
+    ░░░░░▀▄░░░░░▀▀▄▄▄█▄█▄█▄█▄▀░░█░░
+    ░░░░░░░▀▄▄░▒▒▒▒░░░░░░░░░░▒░░░█░
+    ░░░░░░░░░░▀▀▄▄░▒▒▒▒▒▒▒▒▒▒░░░░█░
+    ░░░░░░░░░░░░░░▀▄▄▄▄▄░░░░░░░░█░░
+    """)
+    exit()
+
+if name == ":__:":
+    print("0.52¥")
+    exit()
+#for unique names and inside jokes
+
+
+else:
+    print ("Hello,", name)
+    time.sleep(1)
 
 
 #Listing contacts
@@ -40,7 +83,7 @@ if phone >= 6:
     time.sleep(2)
     print ("That is not a valid number.")
     print ("SYNTAX ERROR AT LINE 400 TRILLION")
-    quit
+    exit()
 
 if phone == 1:
     time.sleep(1)
@@ -70,6 +113,6 @@ time.sleep(5)
 print ("Oh god they found me it's too late for me")
 time.sleep(1.25)
 print ("run")
-quit
+exit()
 
 #Final Messages
