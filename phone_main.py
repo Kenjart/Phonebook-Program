@@ -108,7 +108,7 @@ if phone == 5:
 time.sleep(10)
 print ("Thank you for using our phonebook.")
 time.sleep(1)
-print ("Have a nice day", name)
+print ("Have a nice day,", name)
 time.sleep(5)
 print ("Oh god they found me it's too late for me")
 time.sleep(1.25)
